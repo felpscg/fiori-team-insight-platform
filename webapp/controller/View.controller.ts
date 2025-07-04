@@ -1,0 +1,12 @@
+import Controller from "sap/ui/core/mvc/Controller";
+
+/**
+ * @namespace team.insightplatform.controller
+ */
+export default class View extends Controller {
+
+    /*eslint-disable @typescript-eslint/no-empty-function*/
+    public onInit(): void {
+
+    }
+}
