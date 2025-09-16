@@ -1,9 +1,9 @@
 import Controller from "sap/ui/core/mvc/Controller";
 
 /**
- * @namespace team.insightplatform.controller
+ * @namespace com.br.fiori.teaminsightplatform.controller
  */
-export default class View extends Controller {
+export default class Main extends Controller {
 
     /*eslint-disable @typescript-eslint/no-empty-function*/
     public onInit(): void {

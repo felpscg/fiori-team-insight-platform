@@ -1,31 +1,31 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Fri Jul 04 2025 05:17:08 GMT+0000 (Coordinated Universal Time)|
+|**Generation Date and Time**<br>Tue Sep 16 2025 05:48:25 GMT+0000 (Coordinated Universal Time)|
 |**App Generator**<br>SAP Fiori Application Generator|
-|**App Generator Version**<br>1.18.1|
+|**App Generator Version**<br>1.18.7|
 |**Generation Platform**<br>SAP Business Application Studio|
 |**Template Used**<br>Basic V4|
-|**Service Type**<br>Local Cap|
+|**Service Type**<br>Local CAP|
 |**Service URL**<br>http://localhost:4004/odata/v4/main/|
-|**Module Name**<br>team.insightplatform|
-|**Application Title**<br>App Title|
-|**Namespace**<br>|
-|**UI5 Theme**<br>sap_fiori_3_dark|
-|**UI5 Version**<br>1.136.2|
+|**Module Name**<br>team_insight_platform|
+|**Application Title**<br>Titulo|
+|**Namespace**<br>com.br.fiori|
+|**UI5 Theme**<br>sap_horizon|
+|**UI5 Version**<br>1.140.0|
 |**Enable Code Assist Libraries**<br>True|
 |**Enable TypeScript**<br>True|
 |**Add Eslint configuration**<br>False|
 
-## team.insightplatform
+## team_insight_platform
 
-An SAP Fiori application.
+Descrição
 
 ### Starting the generated app
 
--   This app has been generated using the SAP Fiori tools - App Generator, as part of the SAP Fiori tools suite.  In order to launch the generated app, simply start your CAP project and navigate to the following location in your browser:
+-   This app has been generated using the SAP Fiori tools - App Generator, as part of the SAP Fiori tools suite.  To launch the generated app, start your CAP project:  and navigate to the following location in your browser:
 
-http://localhost:4004/team.insightplatform/index.html
+http://localhost:4004/com.br.fiori.teaminsightplatform/index.html
 
 #### Pre-requisites:
 

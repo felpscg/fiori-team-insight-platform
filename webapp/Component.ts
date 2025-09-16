@@ -2,7 +2,7 @@ import BaseComponent from "sap/ui/core/UIComponent";
 import { createDeviceModel } from "./model/models";
 
 /**
- * @namespace team.insightplatform
+ * @namespace com.br.fiori.teaminsightplatform
  */
 export default class Component extends BaseComponent {
 

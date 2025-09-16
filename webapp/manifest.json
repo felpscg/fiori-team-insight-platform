@@ -1,7 +1,7 @@
 {
-  "_version": "1.65.0",
+  "_version": "1.76.0",
   "sap.app": {
-    "id": "team.insightplatform",
+    "id": "com.br.fiori.teaminsightplatform",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -12,8 +12,8 @@
     "resources": "resources.json",
     "sourceTemplate": {
       "id": "@sap/generator-fiori:basic",
-      "version": "1.18.1",
-      "toolsId": "280628ce-6129-49af-9971-ced6f17b510c"
+      "version": "1.18.7",
+      "toolsId": "3640d4a8-cd6f-4594-9613-1928575c91b9"
     },
     "dataSources": {
       "mainService": {
@@ -27,11 +27,10 @@
     },
     "crossNavigation": {
       "inbounds": {
-        "InsightPlatform-Manage": {
-          "semanticObject": "InsightPlatform",
-          "action": "Manage",
-          "title": "{{InsightPlatform-Manage.flpTitle}}",
-          "subTitle": "{{InsightPlatform-Manage.flpSubtitle}}",
+        "ZSEMOBJ-manage": {
+          "semanticObject": "ZSEMOBJ",
+          "action": "manage",
+          "title": "{{ZSEMOBJ-manage.flpTitle}}",
           "signature": {
             "parameters": {},
             "additionalParameters": "allowed"
@@ -59,7 +58,7 @@
   "sap.ui5": {
     "flexEnabled": true,
     "dependencies": {
-      "minUI5Version": "1.136.2",
+      "minUI5Version": "1.140.0",
       "libs": {
         "sap.m": {},
         "sap.ui.core": {}
@@ -73,7 +72,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "team.insightplatform.i18n.i18n"
+          "bundleName": "com.br.fiori.teaminsightplatform.i18n.i18n"
         }
       },
       "": {
@@ -101,28 +100,28 @@
         "transition": "slide",
         "type": "View",
         "viewType": "XML",
-        "path": "team.insightplatform.view",
+        "path": "com.br.fiori.teaminsightplatform.view",
         "async": true,
-        "viewPath": "team.insightplatform.view"
+        "viewPath": "com.br.fiori.teaminsightplatform.view"
       },
       "routes": [
         {
-          "name": "RouteView",
+          "name": "RouteMain",
           "pattern": ":?query:",
           "target": [
-            "TargetView"
+            "TargetMain"
           ]
         }
       ],
       "targets": {
-        "TargetView": {
-          "id": "View",
-          "name": "View"
+        "TargetMain": {
+          "id": "Main",
+          "name": "Main"
         }
       }
     },
     "rootView": {
-      "viewName": "team.insightplatform.view.App",
+      "viewName": "com.br.fiori.teaminsightplatform.view.App",
       "type": "XML",
       "id": "App",
       "async": true

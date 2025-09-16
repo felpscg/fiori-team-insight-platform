@@ -1,4 +1,4 @@
-<mvc:View controllerName="team.insightplatform.controller.App"
+<mvc:View controllerName="com.br.fiori.teaminsightplatform.controller.App"
     displayBlock="true"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">

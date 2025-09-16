@@ -1,7 +1,7 @@
 import Controller from "sap/ui/core/mvc/Controller";
 
 /**
- * @namespace team.insightplatform.controller
+ * @namespace com.br.fiori.teaminsightplatform.controller
  */
 export default class App extends Controller {
 

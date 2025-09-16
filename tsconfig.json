@@ -11,7 +11,7 @@
     "outDir": "./dist",
     "baseUrl": "./",
     "paths": {
-      "team/insightplatform/*": [
+      "com/br/fiori/teaminsightplatform/*": [
         "./webapp/*"
       ]
     },
