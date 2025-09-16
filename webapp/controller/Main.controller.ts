@@ -9,4 +9,7 @@ export default class Main extends Controller {
     public onInit(): void {
 
     }
+    private onPressTest(): void {
+        
+    }
 }

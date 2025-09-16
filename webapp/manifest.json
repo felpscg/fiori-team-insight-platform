@@ -109,7 +109,7 @@
           "name": "RouteMain",
           "pattern": ":?query:",
           "target": [
-            "TargetMain"
+            "TargetApp"
           ]
         }
       ],
@@ -117,13 +117,17 @@
         "TargetMain": {
           "id": "Main",
           "name": "Main"
+        },
+        "TargetApp": {
+          "id": "App",
+          "name": "App"
         }
       }
     },
     "rootView": {
       "viewName": "com.br.fiori.teaminsightplatform.view.App",
       "type": "XML",
-      "id": "App",
+      "id": "AppSec",
       "async": true
     }
   }
