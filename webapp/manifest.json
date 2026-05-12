@@ -23,6 +23,10 @@
           "annotations": [],
           "odataVersion": "4.0"
         }
+      },
+      "dynamicTiles": {
+        "type": "JSON",
+        "uri": "utils/tiles.json"
       }
     },
     "crossNavigation": {
@@ -56,6 +60,12 @@
     }
   },
   "sap.ui5": {
+    "rootView": {
+      "viewName": "com.br.fiori.teaminsightplatform.view.App",
+      "type": "XML",
+      "async": true,
+      "id": "app"
+    },
     "flexEnabled": true,
     "dependencies": {
       "minUI5Version": "1.140.0",
@@ -84,6 +94,14 @@
           "earlyRequests": true
         }
       }
+,
+      "dynamicTiles": {
+        "type": "sap.ui.model.json.JSONModel",
+        "settings": {
+          "preload": true
+        },
+        "dataSource": "dynamicTiles"
+      }
     },
     "resources": {
       "css": [
@@ -101,34 +119,27 @@
         "type": "View",
         "viewType": "XML",
         "path": "com.br.fiori.teaminsightplatform.view",
-        "async": true,
-        "viewPath": "com.br.fiori.teaminsightplatform.view"
+        "async": true
       },
       "routes": [
         {
-          "name": "RouteMain",
+          "name": "Main",
+          "ID": "RouteMain",
           "pattern": ":?query:",
           "target": [
-            "TargetApp"
+            "Main"
           ]
         }
       ],
       "targets": {
-        "TargetMain": {
-          "id": "Main",
-          "name": "Main"
-        },
-        "TargetApp": {
-          "id": "App",
-          "name": "App"
+        "Main": {
+          "viewId": "Main",
+          "viewName": "Main",
+          "viewLevel": 1,
+          "transition": "slide"
+          
         }
       }
-    },
-    "rootView": {
-      "viewName": "com.br.fiori.teaminsightplatform.view.App",
-      "type": "XML",
-      "id": "AppSec",
-      "async": true
     }
   }
 }

@@ -1,0 +1,16 @@
+<mvc:View
+	controllerName=""
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	xmlns:c="sap.ui.core"
+	displayBlock="true"
+	height="100%"
+	busyIndicatorDelay="0"
+>
+<!-- https://sapui5.netweaver.ondemand.com/sdk/#/entity/sap.f.DynamicPage/sample/sap.f.sample.DynamicPageAnalyticalTable
+ 
+
+
+
+-->
+</mvc:View>
